@@ -1,0 +1,19 @@
+.cartIcon {
+    color: #242222;
+    height: 30px;
+    width: 30px;
+ }
+ 
+ .cartIcon:hover {
+    color: #E3B59B;
+ }
+ 
+ .btn2 {
+     padding-right: 20px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     background-color: transparent;
+ }
+ 
+ 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "./Button";
+import { Cart } from "./Cart";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
@@ -30,7 +31,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          GOLDEN <i class='fab fa-firstdraft'/>
+          GOLDEN 
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -38,7 +39,7 @@ const Navbar = () => {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMoblieMenu}>
-              Home
+              HOME
             </Link>
           </li>
           <li
@@ -47,18 +48,9 @@ const Navbar = () => {
             onMouseLeave={onMouseLeave}
           >
             <Link to="/menu" className="nav-links" onClick={closeMoblieMenu}>
-              Menu <i className="fas fa-caret-down" />
+              MENU <i className="fas fa-caret-down" />
             </Link>
             {dropdown && <Dropdown />}
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/products"
-              className="nav-links"
-              onClick={closeMoblieMenu}
-            >
-              Products
-            </Link>
           </li>
           <li className="nav-item">
             <Link
@@ -66,10 +58,11 @@ const Navbar = () => {
               className="nav-links-mobile"
               onClick={closeMoblieMenu}
             >
-              Login
+              LOGIN
             </Link>
           </li>
         </ul>
+        <Cart/>
         <Button />
       </nav>
     </div>
