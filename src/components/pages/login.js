@@ -9,7 +9,7 @@ export default function Login() {
                <span>
                     <input className='username' type='text' placeholder='Email'></input>
                     <input className='password' type='text' placeholder='Password'></input>
-                    <input className='submit' type= 'submit'></input>
+                    <input className='submit' type= 'SUBMIT'></input>
                </span>
             </div>
         </div>

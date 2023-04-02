@@ -1,5 +1,5 @@
 .login{
-    background-color: #e9ac7d;
+    background-color:  #CDA894;;
     height: 100%;
 }
 .loginCard {
@@ -14,7 +14,7 @@
 .loginHeader {
     display: flex;
     font-size: 40px;
-    margin-left: 120px;
+    margin-left: 117px;
     margin-top: 50px;
 }
 
@@ -41,9 +41,14 @@
     color: white;
     background-color: black;
     border: 2px solid black;
-    width: 100px;
-    height: 40px;
-    margin-left: 125px;
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(69, 68, 68);
 }
