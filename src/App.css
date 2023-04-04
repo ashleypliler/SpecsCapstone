@@ -10,7 +10,7 @@
   font-family: Quicksand ;
 }
 
-.home, .menu, .products, .about, .donations, .help, .login, .cart {
+.home, .menu, .about, .donations, .help, .login, .cart {
   display: flex;
   height: 90vh;
   align-items: center;

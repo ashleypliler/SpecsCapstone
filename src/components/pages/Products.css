@@ -1,0 +1,30 @@
+
+.header {
+    background-image: url('../../images/productsBackgroung.png') ;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+    font-size: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .prodPhoto {
+    background-image: url('../../images/goldenSweatshirt1.png');
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+}
+
+.prodCard {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #CDA894;
+    background-color: white;
+} */

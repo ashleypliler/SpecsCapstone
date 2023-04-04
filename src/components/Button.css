@@ -1,7 +1,8 @@
 .profileIcon {
    color: #383535;
-   height: 30px;
-   width: 30px;
+   height: 35px;
+   width: 35px;
+   
 }
 
 .profileIcon:hover {
@@ -9,7 +10,7 @@
 }
 
 .btn {
-    
+    padding-right: 30px;
     outline: none;
     border: none;
     cursor: pointer;

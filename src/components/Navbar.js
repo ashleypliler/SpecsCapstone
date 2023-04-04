@@ -37,11 +37,6 @@ const Navbar = () => {
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMoblieMenu}>
-              HOME
-            </Link>
-          </li>
           <li
             className="nav-item"
             onMouseEnter={onMouseEnter}
@@ -63,6 +58,7 @@ const Navbar = () => {
           </li>
         </ul>
         <Cart/>
+        <div className="cartCounter">2</div>
         <Button />
       </nav>
     </div>

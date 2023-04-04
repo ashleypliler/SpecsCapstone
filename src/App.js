@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'
 import About from './components/pages/About';
@@ -12,8 +12,9 @@ import Products from './components/pages/Products';
 import Cart from './components/pages/Cart';
 
 function App() {
+
   return (
-    <Router>
+    <div>
       <Navbar></Navbar>
         <Routes>
           <Route path='/' index element={<Home/>}/>
@@ -25,7 +26,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
-    </Router>
+    </div>
   );
 }
 

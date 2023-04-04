@@ -3,6 +3,7 @@
     height: 80px;
     display: flex;
     position: fixed;
+    top: 0px;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -14,7 +15,7 @@
     color:#E3B59B;
     text-align: center;
     justify-self: center;
-    margin: 0px;
+    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 40px;
@@ -152,4 +153,19 @@
     button {
       display: none;
     }
+  }
+
+  .cartCounter {
+    height: 15px;
+    width: 15px;
+    border-radius: 60%;
+    background-color:#E3B59B;
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    right: 75px;
+    top: 40px;
+    padding-left: 5px;
   }
