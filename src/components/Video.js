@@ -5,7 +5,7 @@ import './Video.css';
 const Video = () => {
     return (
         <div>
-        <video className='video' src={video1} width="100%" height="300" controls autoPlay muted loop/>
+        <video className='video' src={video1} width="100%" height="300" autoPlay muted loop/>
       </div>
     )
 };

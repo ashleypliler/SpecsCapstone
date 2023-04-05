@@ -123,6 +123,7 @@
 
 .productsBtn {
   border: 2px solid #CDA894;
+  position: absolute;
   height: 70px;
   width: 200px;
   font-size: 30px;

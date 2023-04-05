@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Godlen Hoodie",
         "price": 14.99,
-        "imgUrl": "/photos/goldenSweatshirt.png"
+        "imgUrl": "/photos/goldenSweatshirt.jpg"
     },
     {
         "id": 2,
         "name": "You Are Godlen Hoodie",
         "price": 14.99,
-        "imgUrl": "/photos/goldenSweatshirt.png"
+        "imgUrl": "/photos/goldenSweatshirt.jpg"
     },
     {
         "id": 3,
         "name": "Godlen You Hoodie",
         "price": 14.99,
-        "imgUrl": "/photos/goldenSweatshirt.png"
+        "imgUrl": "/photos/goldenSweatshirt.jpg"
     },
     {
         "id": 4,
         "name": "Godlen Tote Bag",
         "price": 9.99,
-        "imgUrl": "/photos/goldenTote.png"
+        "imgUrl": "/photos/goldenTote.jpg"
     }
 ]

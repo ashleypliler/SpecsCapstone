@@ -1,13 +1,14 @@
 .pic {
-    background-image: url('../../images/beach.jpg');
+    background-image: url('../../images/ourStory.png');
     background-size: cover;
     height: 400px;
     width: 100%;
-    font-size: 200px;
+    font-size: 80px;
     text-align: center;
-    padding-top: 90px;
-    padding-left: 120px;
-    color: white; 
+    margin-top: 50px;
+    padding-top: 400px;
+    color: #CDA894;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .words {

@@ -2,6 +2,9 @@ require('dotenv').config();
 
 const express = require('express');
 const cors = require('cors');
+const {User} = require('./models/user')
+const {register, login} = require('./controllers/login')
+const {isAuthenticated} = require('./middleware/isAuthenticated')
 
 const app = express();
 
