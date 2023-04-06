@@ -45,10 +45,10 @@ const Footer = () => {
         <label className="emailLabel" id="followUs">
           FOLLOW US
         </label>
-        <a href="https://www.facebook.com/">
+        <a href="https://www.facebook.com/profile.php?id=100091503765920">
           <ImFacebook className="icons" id="fb"></ImFacebook>
         </a>
-        <a href="https://www.instagram.com/?hl=en">
+        <a href="https://www.instagram.com/goldenyou.co/">
           <ImInstagram className="icons" id="insta" />
         </a>
         <label className="emailLabel">SIGN UP FOR OUR EMAILS!</label>

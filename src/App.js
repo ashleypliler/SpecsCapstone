@@ -10,12 +10,14 @@ import Login from './components/pages/login';
 import Menu from './components/pages/Menu';
 import Products from './components/pages/Products';
 import Cart from './components/pages/Cart';
+import ScrollToTop from './components/scrollToTop';
 
 function App() {
 
   return (
     <div>
       <Navbar></Navbar>
+        <ScrollToTop/>
         <Routes>
           <Route path='/' index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
