@@ -1,4 +1,4 @@
-.pic {
+.peoplePic {
     background-image: url('../../images/ourStory.png');
     background-size: cover;
     height: 400px;
@@ -21,6 +21,7 @@
     justify-content: right;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 20px;
    
 }
 

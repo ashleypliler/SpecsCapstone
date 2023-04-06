@@ -12,6 +12,7 @@ export default function Home() {
       <div className='pageContainer'>
         <div id='contentWrap'>
           <h1 className='home'><Video/></h1>
+          <div className='goldenName'>GOLDEN</div>
           <div className='motto'>"TO HELP YOU KNOW THAT YOU MATTER"</div>
           <div className='imageContainer'>
               <Link to="/about">

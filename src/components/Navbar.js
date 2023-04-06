@@ -58,7 +58,6 @@ const Navbar = () => {
           </li>
         </ul>
         <Cart/>
-        <div className="cartCounter">2</div>
         <Button />
       </nav>
     </div>

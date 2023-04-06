@@ -6,7 +6,7 @@ import Footer from '../Footer';
 export default function About() {
   return (
     <div className="about">
-      <h1 className="pic">GOLDEN</h1>
+      <h1 className="peoplePic">GOLDEN</h1>
       <div className="words">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Arcu cursus vitae

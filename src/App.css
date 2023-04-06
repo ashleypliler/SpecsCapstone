@@ -8,6 +8,7 @@
   margin: 0%;
   padding: 0%;
   font-family: Quicksand ;
+  user-select: none;
 }
 
 .home, .menu, .about, .donations, .help, .login, .cart {
@@ -26,6 +27,18 @@
   color: #fff;
   font-size: 100px;
   margin-bottom: 0px;
+}
+
+.goldenName {
+  color:#CDA894;
+  text-align: center;
+  top: 230px;
+  font-size: 130px;
+  left: 25%;
+  position: absolute;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  user-select: none;
 }
 
 .motto {

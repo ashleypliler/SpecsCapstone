@@ -6,44 +6,119 @@
     background: #3a3838;
     position: absolute;
     bottom: 0px;
+    justify-content:space-between;
+
 }
 
 .icons {
     display: flex;
     position:absolute;
-    top: 200px;
-    height: 30px;
-    width: 30px;
+    top: 190px;
+    height: 25px;
+    width: 25px;
     color: white;
+    cursor: pointer;
 }
 
 #fb {
-    right: 60px;
+    right: 230px;
     
 }
 
 #insta {
-    right: 120px;
+    right: 270px;
 }
 
 .emails {
     display: flex;
     position:absolute;
-    top: 130px;
-    right: 50px;
+    top: 110px;
+    right: 80px;
     height: 30px;
-    width: 250px;
-    font-size: 18px;
+    width: 220px;
+    font-size: 15px;
 }
 
 .emailLabel{
     display: flex;
     position:absolute;
-    top: 100px;
+    top: 90px;
     right: 50px;
     height: 30px;
     width: 250px;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
 }
   
+#followUs {
+    top: 160px;
+    font-size: 14px;
+}
+
+.footer-links {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    position:absolute;
+    top: 95px;
+    left: 80px;
+    font-size: 15px;
+}
+
+.footer-links:hover {
+    color: #E3B59B;
+}
+
+#footer-about {
+    top: 110px;
+}
+
+#footer-login {
+    top: 185px;
+}
+
+#footer-products {
+    top: 110px;
+    left: 250px;
+}
+
+#footer-donations {
+    top: 185px;
+    left: 250px;
+}
+
+#footer-help {
+    top: 110px;
+    left: 450px;
+}
+
+.footer-page-label {
+    display: flex;
+    position:absolute;
+    left: 80px;
+    font-size: 12px;
+    color: rgb(188, 183, 183);
+}
+
+#aboutLabel {
+    top: 90px;
+}
+
+#loginLabel {
+    top: 165px;
+}
+
+#productsLabel {
+    top: 90px;
+    left: 250px;
+}
+
+#donationsLabel{
+    top: 165px;
+    left: 250px;
+}
+
+#helpLabel {
+    top: 90px;
+    left: 450px;
+}

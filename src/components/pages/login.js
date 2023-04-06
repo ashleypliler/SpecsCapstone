@@ -1,6 +1,7 @@
 import {useState, useContext} from 'react'
 import axios from 'axios'
 import './Login.css'
+import Footer from '../Footer'
 
 import AuthContext from '../../store/authContext'
 
@@ -40,7 +41,7 @@ const Login = () => {
 
     return (
         <main>
-            <h1>Welcome!</h1>
+            
             <form className='form auth-form' onSubmit={submitHandler}>
                 <input 
                     type='text' 
@@ -62,6 +63,10 @@ const Login = () => {
             <button className='form-btn' onClick={() => setRegister(!register)}>
                 Need to {register ? 'Login' : 'Sign Up'}?
             </button>
+
+            <div className="footerLogin">
+            <Footer />
+          </div>
         </main>
     )
 }

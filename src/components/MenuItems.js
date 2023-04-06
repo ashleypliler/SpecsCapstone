@@ -20,7 +20,7 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'HELP',
+        title: 'NEED HELP?',
         path: '/help',
         cName: 'dropdown-link'
     }

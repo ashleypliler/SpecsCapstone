@@ -1,0 +1,68 @@
+
+.pic {
+    background-image: url('../../images/help2.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 200px;
+    color: #CDA894;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 900px;
+    font-size: 30px;
+    justify-content:space-evenly;
+   
+}
+.contactHere {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 1150px;
+    font-size: 30px;
+    justify-content:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.words-help {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 730px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+   
+}
+
+.footerHelp {
+    display: flex;
+        position: absolute;
+        top: 1200px;
+        width: 100%;
+        height: 300px;
+      
+}
+.email-icon {
+    height: 70px;
+    width: 70px;
+    color: #CDA894;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.phone-icon {
+    padding-left: 20px;
+}

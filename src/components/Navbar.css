@@ -19,6 +19,8 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
   }
   
   .fa-firstdraft {
@@ -155,17 +157,4 @@
     }
   }
 
-  .cartCounter {
-    height: 15px;
-    width: 15px;
-    border-radius: 60%;
-    background-color:#E3B59B;
-    margin: 10px;
-    font-size: 10px;
-    text-align: center;
-    display: flex;
-    position: fixed;
-    right: 75px;
-    top: 40px;
-    padding-left: 5px;
-  }
+ 
