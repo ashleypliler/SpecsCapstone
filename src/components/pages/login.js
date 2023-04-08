@@ -41,7 +41,6 @@ const Login = () => {
 
     return (
         <main>
-            
             <form className='form auth-form' onSubmit={submitHandler}>
                 <input 
                     type='text' 
@@ -60,7 +59,7 @@ const Login = () => {
                 </button>
             </form>
             <p style={{display: display}} className='auth-msg'>{message}</p>
-            <button className='form-btn' onClick={() => setRegister(!register)}>
+            <button className='form-btn' type='submit' onClick={() => setRegister(!register)}>
                 Need to {register ? 'Login' : 'Sign Up'}?
             </button>
 

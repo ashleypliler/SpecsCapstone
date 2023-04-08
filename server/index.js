@@ -1,12 +1,18 @@
 require('dotenv').config();
-
+const {PORT} = process.env
 const express = require('express');
 const cors = require('cors');
 const {User} = require('./models/user')
 const {register, login} = require('./controllers/login')
-const {isAuthenticated} = require('./middleware/isAuthenticated')
+const {sequelize} = require('./database/database');
+const { Info } = require('./models/info');
 
 const app = express();
+
+
+User.hasMany(Info)
+Info.belongsTo(User)
+
 
 app.use(express.json())
 app.use(cors())
@@ -14,4 +20,6 @@ app.use(cors())
 app.post('/register', register)
 app.post('/login', login)
 
-app.listen(3000, () => console.log('Server is running on port 3000'))
+sequelize.sync().then(() => {
+    app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
+}).catch(err => console.log(err));
