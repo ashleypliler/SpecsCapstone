@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'
 import About from './components/pages/About';
-import Donations from './components/pages/Donations';
 import Help from './components/pages/Help';
 import Home from './components/pages/Home';
 import Login from './components/pages/login';
@@ -22,7 +21,6 @@ function App() {
           <Route path='/' index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/products' element={<Products/>}/>
-          <Route path='/donations' element={<Donations/>}/>
           <Route path='/help' element={<Help/>}/>
           <Route path='/menu' element={<Menu/>}/>
           <Route path='/login' element={<Login/>}/>

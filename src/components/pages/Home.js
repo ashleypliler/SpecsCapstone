@@ -26,8 +26,8 @@ export default function Home() {
               </Link>
           </div>
           <div className='donationsHome'>
-            <Link to="/donations">
-              <button className='donationsBtn'>DONATE NOW</button>
+            <Link to="/products">
+              <button className='donationsBtn'>VIEW PRODUCTS</button>
             </Link>
           </div>
           <div className='needHelp'>

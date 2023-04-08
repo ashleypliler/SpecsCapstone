@@ -88,7 +88,7 @@
 
 .donationsHome{
   background-position: center;
-  background-image: url('./images/donations.png');
+  background-image: url('./images/donations-home.png');
   background-size:cover;
   margin: 50px, 50px, 50px, 50px;
   width: 100%;
@@ -103,7 +103,7 @@
   font-size: 25px;
   color: white;
   background-color:  #CDA894;
-  margin-top: 370px;
+  margin-top: 390px;
   margin-left: 410px;
   padding: auto;
   z-index: 0;

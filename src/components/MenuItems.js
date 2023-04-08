@@ -15,11 +15,6 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'DONATIONS',
-        path: '/donations',
-        cName: 'dropdown-link'
-    },
-    {
         title: 'NEED HELP?',
         path: '/help',
         cName: 'dropdown-link'

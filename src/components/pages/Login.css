@@ -34,7 +34,7 @@ main {
 .form-btn {
 	border: 1px solid black;
 	border-radius: 5px;
-	color: #CDA894;
+	color: white;
 	background: #393737;
 	padding: 10px 20px;
 	transition: .5s;

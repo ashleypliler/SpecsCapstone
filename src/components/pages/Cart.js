@@ -5,7 +5,8 @@ import Footer from "../Footer";
 export default function Cart() {
   return (
     <div className="cart">
-      <h1>STORE</h1>
+    yo
+      
       <div className="footerCart">
         <Footer />
       </div>
