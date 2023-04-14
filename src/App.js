@@ -10,6 +10,7 @@ import Menu from './components/pages/Menu';
 import Products from './components/pages/Products';
 import Cart from './components/pages/Cart';
 import ScrollToTop from './components/scrollToTop';
+import Register from './components/pages/Register';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/help' element={<Help/>}/>
           <Route path='/menu' element={<Menu/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
     </div>

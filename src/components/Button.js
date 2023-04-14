@@ -5,7 +5,7 @@ import {CgProfile} from 'react-icons/cg'
 
 export const Button = () => {
     return (
-        <Link to='login'>
+        <Link to='register'>
             <button className='btn'><CgProfile className='profileIcon'/></button>
         </Link>
     );

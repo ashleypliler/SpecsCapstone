@@ -1,16 +1,16 @@
-const {DataTypes} = require('sequelize')
+// const {DataTypes} = require('sequelize')
 
-const {sequelize} = require('../database/database')
+// const {sequelize} = require('../database/database')
 
-module.exports = {
-    User : sequelize.define('user', {
-        id: {
-            type: DataTypes.INTEGER,
-            autoIncrement: true,
-            allowNull: false,
-            primaryKey: true
-        },
-        username: DataTypes.STRING,
-        hashedPass: DataTypes.STRING
-    })
-}
+// module.exports = {
+//     User : sequelize.define('user', {
+//         id: {
+//             type: DataTypes.INTEGER,
+//             autoIncrement: true,
+//             allowNull: false,
+//             primaryKey: true
+//         },
+//         username: DataTypes.STRING,
+//         hashedPass: DataTypes.STRING
+//     })
+// }

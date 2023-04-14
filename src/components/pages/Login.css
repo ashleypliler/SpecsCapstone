@@ -27,7 +27,7 @@ main {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #CDA894;
-	color: white;
+	color: black;
     font-size: 20px;
 }
 
@@ -40,6 +40,7 @@ main {
 	transition: .5s;
 	margin-top: 10px;
     font-size: 20px;
+	text-decoration: none;
 }
 
 .form-btn:hover {
