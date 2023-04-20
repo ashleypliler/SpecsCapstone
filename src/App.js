@@ -11,11 +11,13 @@ import Products from './components/pages/Products';
 import Cart from './components/pages/Cart';
 import ScrollToTop from './components/scrollToTop';
 import Register from './components/pages/Register';
+import { ShopContextProvider } from './context/ShopContext';
 
 function App() {
 
   return (
     <div>
+    <ShopContextProvider>
       <Navbar></Navbar>
         <ScrollToTop/>
         <Routes>
@@ -28,6 +30,7 @@ function App() {
           <Route path='/register' element={<Register/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
+    </ShopContextProvider>
     </div>
   );
 }

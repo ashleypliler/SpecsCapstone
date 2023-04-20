@@ -21,6 +21,9 @@ export default function Help() {
         </a>
       </div>
       <span className="contactHere">Contact us here!</span>
+      <div className="lifeline">
+       <p >Talk to the Suicide & Crisis Lifeline here: <a id="lifeNum" href="tel:988">#988</a></p>
+      </div>
       <div className="words-help">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Arcu cursus vitae

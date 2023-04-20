@@ -16,7 +16,7 @@ const RegisterClient = () => {
         axios.post(`http://localhost:4567/register`, {username, password})
             .then((res) => {
                 console.log(res.data)
-                navigate('/login')
+                navigate('/')
             })
             .catch(err => {
                 alert(err, 'couldnt register user')

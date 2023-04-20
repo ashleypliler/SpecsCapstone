@@ -4,9 +4,6 @@ import Footer from '../Footer';
 import Video from '../Video';
 import { Link } from 'react-router-dom';
 
-
-
-
 export default function Home() {
   return (
       <div className='pageContainer'>
@@ -26,9 +23,6 @@ export default function Home() {
               </Link>
           </div>
           <div className='donationsHome'>
-            <Link to="/products">
-              <button className='donationsBtn'>VIEW PRODUCTS</button>
-            </Link>
           </div>
           <div className='needHelp'>
             <Link to="/help">
