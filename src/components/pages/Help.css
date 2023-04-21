@@ -1,14 +1,13 @@
 
 .pic {
-    background-image: url('../../images/help2.jpg');
+    background-image: url('../../images/friends.jpg');
     background-size: cover;
-    height: 400px;
+    height: 450px;
     width: 100%;
     font-size: 80px;
     text-align: center;
-    margin-top: 0px;
-    padding-top: 200px;
-    color: #CDA894;
+    padding: 30px;
+    color:  #4e4a4a;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

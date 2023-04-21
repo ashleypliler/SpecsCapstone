@@ -9,7 +9,7 @@ import ButtonMailto from "../email";
 export default function Help() {
   return (
     <div className="help">
-      <h1 className="pic">Need to talk to someone?</h1>
+      <h1 className="pic">NEED TO TALK?</h1>
       <div className="contact">
         <ButtonMailto
           className="email-icon"

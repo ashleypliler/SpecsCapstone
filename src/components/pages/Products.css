@@ -11,6 +11,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.carousel-sample {
+  margin: 0 auto 2rem;
+  max-width: 500px;
+  height: 300px;
+}
+
 /* .prodPhoto {
     background-image: url('../../images/goldenSweatshirt1.png');
     background-size: cover;

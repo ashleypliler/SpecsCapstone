@@ -28,13 +28,6 @@ const Footer = () => {
           See What's New
         </Link>
 
-        <label className="footer-page-label" id="donationsLabel">
-          DONATIONS
-        </label>
-        <Link className="footer-links" id="footer-donations" to="/donations">
-          Donate Here
-        </Link>
-
         <label className="footer-page-label" id="helpLabel">
           HELP
         </label>
