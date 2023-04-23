@@ -89,34 +89,9 @@
   height: 600px;
 }
 
-.donationsHome{
-  background-position: center;
-  background-image: url('./images/portion.png');
-  background-size:cover;
-  margin: 50px, 50px, 50px, 50px;
-  width: 100%;
-  background-color: transparent;
-  height: 600px;
-}
 
-.donationsBtn {
-  border: 2px solid white;
-  height: 70px;
-  width: 250px;
-  font-size: 25px;
-  color: white;
-  background-color:  #CDA894;
-  margin-top: 390px;
-  margin-left: 410px;
-  padding: auto;
-  z-index: 0;
-}
 
-.donationsBtn:hover {
-  cursor: pointer;
-  color: #CDA894;
-  background-color:white ;
-}
+
 
 .ourStoryBtn {
 

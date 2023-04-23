@@ -11,7 +11,7 @@ export default function Cart() {
   return (
     <div className="cart">
     <div>
-    <h1 className="header">YOUR CART ITEMS</h1>
+    <h1 className="cartHeader">YOUR CART ITEMS</h1>
     </div>
       <div className="cartItems">
         {ITEMS.map((product) => {
