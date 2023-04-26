@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Cart() {
   const { cartItems, getTotalCartAmount } = useContext(ShopContext);
+  const totalAmount = getTotalCartAmount();
   return (
     <div className="cart">
     <div>
@@ -16,12 +17,12 @@ export default function Cart() {
       <div className="cartItems">
         {ITEMS.map((product) => {
           if(cartItems[product.id] !== 0) {
-            return <CartItem data={product}/>
+            return <CartItem key={product.id} data={product}/>
           }
         })}
       </div>
       <div className="checkout">
-        <p>Subtotal: ${getTotalCartAmount}</p>
+        <p className="subtotal">Subtotal: ${totalAmount}</p>
         <button><Link to='/products' className="continueLink">Continue Shopping</Link></button>
         <button>Checkout</button>
       </div>

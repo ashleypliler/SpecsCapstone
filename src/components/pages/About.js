@@ -8,22 +8,9 @@ export default function About() {
     <div className="about">
       <h1 className="peoplePic">WHAT IS GOLDEN?</h1>
       <div className="words">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Arcu cursus vitae
-        congue mauris rhoncus aenean. Dictumst vestibulum rhoncus est
-        pellentesque elit ullamcorper dignissim. Urna nec tincidunt praesent
-        semper. Amet dictum sit amet justo donec enim diam vulputate. Maecenas
-        ultricies mi eget mauris pharetra et ultrices. Amet facilisis magna
-        etiam tempor orci. Mauris rhoncus aenean vel elit scelerisque mauris
-        pellentesque. Egestas maecenas pharetra convallis posuere morbi. Duis ut
-        diam quam nulla porttitor massa id. Volutpat sed cras ornare arcu dui.
-        Amet nulla facilisi morbi tempus iaculis urna id volutpat. Id velit ut
-        tortor pretium viverra suspendisse potenti. Euismod elementum nisi quis
-        eleifend quam adipiscing vitae proin. Ut venenatis tellus in metus
-        vulputate eu scelerisque. Mauris ultrices eros in cursus turpis massa.
-        Odio eu feugiat pretium nibh. Tincidunt augue interdum velit euismod in
-        pellentesque massa. Molestie at elementum eu facilisis sed odio.
-        Consectetur a erat nam at lectus urna duis. Iaculis eu non diam.
+      Golden is a clothing website founded in 2023 with a mission to make a positive impact on mental health. Ashley, the founders, were inspired to create a fashion brand that not only provides stylish clothing but also gives back to the community. They donate a portion of their profits to mental health charities to fund research, education, and resources for those in need.
+      Golden's clothing line offers trendy and high-quality pieces that cater to people of all ages and genders. They regularly collaborate with mental health organizations and advocates, hosting events and workshops to destigmatize mental health issues.
+      Ashley's dedication to mental health awareness has created a ripple effect that has touched countless lives. As Golden continues to grow, they hope to expand their impact and reach even more people. Golden is not just a clothing website, it's a movement representing hope, resilience, and support for those who need it most.
       </div>
     <div className='footerAbout'>
       <Footer/>

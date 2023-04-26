@@ -75,8 +75,7 @@
   width: 100%;
   background-color: transparent;
   height: 600px;
-  display: flex;
-  justify-content: space-between;
+  text-align: right;
 }
 
 .productContainer{
@@ -87,6 +86,7 @@
   width: 100%;
   background-color: transparent;
   height: 600px;
+  text-align: center;
 }
 
 
@@ -94,17 +94,14 @@
 
 
 .ourStoryBtn {
-
   border: 2px solid #CDA894;
   height: 60px;
-  width: 150px;
-  font-size: 20px;
+  width: 200px;
+  font-size: 25px;
   color: #CDA894;
   background-color: white;
-  margin-top: 525px;
-  margin-left: 860px;
-  padding: auto;
-  z-index: 0;
+  margin-top: 520px;
+  margin-right: 50px;
 }
 
 .ourStoryBtn:hover {
@@ -115,16 +112,12 @@
 
 .productsBtn {
   border: 2px solid #CDA894;
-  position: absolute;
   height: 70px;
   width: 200px;
   font-size: 30px;
   color: #CDA894;
   background-color: white;
-  margin-top: 270px;
-  margin-left: 435px;
-  padding: auto;
-  z-index: 0;
+  margin-top: 275px;
 }
 
 .productsBtn:hover {
@@ -163,6 +156,7 @@
   font-size: 30px;
   color: #CDA894;
   background-color: white;
+  margin-top: 5px;
 }
 
 .helpBtn:hover {

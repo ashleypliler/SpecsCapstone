@@ -8,17 +8,7 @@
 }
 
 
-.cartHeader {
-    background-color: #CDA894;
-    height: 500px;
-    width: 100%;
-    margin-top: 100px;
-    text-align: center;
-    padding-top: 180px;
-    color: rgb(4, 4, 4);
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 .continueLink {
     text-decoration: none;
@@ -26,7 +16,9 @@
 }
 
 .cart {
-    display: flex;
+    display: flex; 
+    position: relative;
+    top: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,22 +28,23 @@
 
   .cartHeader {
     background-color: #CDA894;
-    height: 400px;
+    height: 200px;
     width: 100vw;
+    align-items: center;
     text-align: center;
-    padding-top: 180px;
-    padding-left: 70px;
+    padding-left: 20%;
     color: white;
     margin: 0%;
-    margin-top: 200px;
-    font-size: 100px;
+    font-size: 70px;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
+    position: relative;
+
   }
   
   .cartItem {
-    width: 700px;
-    height: 250px;
+    width: 500px;
+    height: 150px;
     display: flex;
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -60,13 +53,13 @@
   }
   
   .cartItem img {
-    width: 150px;
+    width: 100px;
     margin: 15px;
   }
   
   .cartItem .description {
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .countHandler input {
@@ -76,12 +69,26 @@
   }
   
   .checkout button {
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
     background-color: rgb(19, 19, 19);
     color: white;
     border: none;
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    margin-top: 50px;
+  }
+
+  .checkout {
+    margin-top: 50px;
+  }
+
+  .subtotal {
+    font-size: 25px;
+    padding-left: 30px;
   }

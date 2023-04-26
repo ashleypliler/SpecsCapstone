@@ -5,9 +5,10 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #CDA894;
+	background-color: #debfaf;
 	height: 1000px;
 }
+
 
 .form {
 	border: .5px solid black;

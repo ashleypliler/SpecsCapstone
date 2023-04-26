@@ -3,10 +3,10 @@
     background-size: cover;
     height: 400px;
     width: 100%;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     margin-top: 50px;
-    padding-top: 400px;
+    padding-top: 500px;
     color: #CDA894;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -16,11 +16,11 @@
     width: 100%;
     display: flex;
     position: absolute;
-    top: 600px;
-    font-size: 30px;
+    top: 700px;
+    font-size: 25px;
     justify-content: right;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 20px;
    
 }
