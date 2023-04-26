@@ -17,23 +17,6 @@
   height: 300px;
 }
 
-/* .prodPhoto {
-    background-image: url('../../images/goldenSweatshirt1.png');
-    background-size: cover;
-    height: 300px;
-    width: 200px;
-}
-
-.prodCard {
-    height: 400px;
-    width: 300px;
-    border: 2px solid black;
-    margin: 50px;
-    font-size: 30px;
-    text-align: center;
-    color: #CDA894;
-    background-color: white;
-} */
 
 .footerProducts {
     display: flex;
@@ -74,4 +57,22 @@ img.small {
     width: 100%;
     height: 400px;
     margin-top: 90px;
+  }
+
+  .addToCartButton {
+    background-color: transparent;
+    border: 2px solid #CDA894;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #name {
+    font-size: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #price {
+    font-size: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
