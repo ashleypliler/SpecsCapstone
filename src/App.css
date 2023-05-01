@@ -31,11 +31,11 @@
 }
 
 .goldenName {
-  color:#CDA894;
+  color:#f3dcd0;
   text-align: center;
   top: 230px;
-  font-size: 130px;
-  left: 25%;
+  font-size: 125px;
+  left: 27%;
   position: absolute;
   display: flex;
   font-family: 'Times New Roman', Times, serif;
@@ -55,6 +55,7 @@
 
 #contentWrap {
   padding-bottom: 2.5rem;
+  text-align: center;
 }
 
 .footer {
@@ -72,6 +73,7 @@
   background-image: url('./images/golden-you.png');
   background-size: cover;
   margin: 50px, 50px, 50px, 50px;
+  margin-bottom: 90px;
   width: 100%;
   background-color: transparent;
   height: 600px;
@@ -80,9 +82,10 @@
 
 .productContainer{
   background-position: center;
-  background-image: url('./images/GOLDENYOU.png');
+  background-image: url('./images/productspagelink.png');
   background-size:cover;
   margin: 50px, 50px, 50px, 50px;
+  margin-top: 50px;
   width: 100%;
   background-color: transparent;
   height: 600px;

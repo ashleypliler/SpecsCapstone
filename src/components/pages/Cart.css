@@ -28,7 +28,7 @@
 
   .cartHeader {
     background-color: #CDA894;
-    height: 200px;
+    height: 300px;
     width: 100vw;
     align-items: center;
     text-align: center;
@@ -85,7 +85,7 @@
   }
 
   .checkout {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .subtotal {

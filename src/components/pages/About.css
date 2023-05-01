@@ -2,7 +2,7 @@
     background-image: url('../../images/ourStory.png');
     background-size: cover;
     height: 400px;
-    width: 100%;
+    width: 100vw;
     font-size: 70px;
     text-align: center;
     margin-top: 50px;
@@ -22,14 +22,62 @@
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 20px;
-   
+    text-align: center;
+    
+}
+
+.moreQuestions {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 1250px;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    color: #CDA894;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#chat{
+    top: 1300px;
+    font-size: 25px;
+    color: rgb(45, 44, 44);
 }
 
 .footerAbout {
     display: flex;
-        position: absolute;
-        top: 1500px;
-        width: 100%;
-        height: 400px;
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    height: 400px;
       
 }
+
+.contactQuest {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.email-icon-quest {
+    height: 60px;
+    width: 60px;
+    color: #CDA894;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#email-question {
+    padding-right: 20px;
+}
+

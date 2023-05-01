@@ -10,16 +10,16 @@ const Login = () => {
             <form className='form auth-form' >
                 <input 
                     type='text' 
-                    placeholder='USERNAME' 
+                    placeholder='enter your username' 
                  
                     className='form-input'/>
                 <input 
                     type='password' 
-                    placeholder='PASSWORD' 
+                    placeholder='enter your password' 
                    
                     className='form-input'/>
                 <button className='form-btn' type='submit'>
-                  Login
+                  LOGIN
                 </button>
             </form>
             <Link to='/register' className='form-btn' >

@@ -26,7 +26,7 @@ export const HomeCarousel = ({ slides, parentWidth }) => {
     left: "32px",
     fontSize: "45px",
     color: "#fff",
-    zIndex: 1,
+    
     cursor: "pointer",
   };
 
@@ -37,7 +37,7 @@ export const HomeCarousel = ({ slides, parentWidth }) => {
     right: "32px",
     fontSize: "45px",
     color: "#fff",
-    zIndex: 1,
+   
     cursor: "pointer",
   };
 

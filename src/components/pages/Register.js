@@ -30,18 +30,18 @@ const RegisterClient = () => {
             <form className='form auth-form' onSubmit={registerUser}>
                 <input 
                     type='text' 
-                    placeholder='username' 
+                    placeholder='enter your username' 
                     value={username}
                     onChange={e => setUsername(e.target.value)}
                     className='form-input'/>
                 <input 
                     type='password' 
-                    placeholder='password' 
+                    placeholder='enter your password' 
                     value={password}
                     onChange={e => setPassword(e.target.value)}
                     className='form-input'/>
                 <button className='form-btn' type='submit'>
-                    Register
+                    REGISTER
                 </button>
             </form>
             <Link to='/login'className='form-btn'>

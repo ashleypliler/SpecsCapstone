@@ -12,11 +12,7 @@ export default function Menu() {
                  <button className='menuPages'>PRODUCTS</button>
                 </Link>
            </div>
-            <div className='pages' id='don'>
-                <Link to="/donations">
-                    <button className='menuPages'>DONATIONS</button>
-                </Link>
-            </div>
+        
             <div className='pages' id='stor'>
                 <Link to="/about">
                     <button className='menuPages'>OUR STORY</button>
